@@ -1,0 +1,14 @@
+meta:
+  route: test
+  date: feb 19
+  tag: test
+  title: This is a test
+
+content:
+  - type: header
+    content: |
+      this is header content for the first block
+
+  - type: body
+    content: |
+      this is the conent for the body paragraph

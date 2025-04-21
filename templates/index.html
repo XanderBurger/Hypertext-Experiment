@@ -4,22 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TEMPLATE</title>
+    <link rel="stylesheet" href="static/css/index.css" />
     <script src="https://unpkg.com/htmx.org@2.0.3"></script>
-    <script type="module" src="/static/js/lit/lit-test.js"></script>
-    <div>
-      <div>
-        <h1>
-          TEMPLATE
-       </h1>
-        <h1>
-           Flask - HTMX - Lit
-        </h1>
-        <lit-test></lit-test>
-        <a href="https://github.com/XanderBurger/Flask-Tailwind-HTMX">
-          link to github
-        </a>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=sbbbwap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <main class="f-f-inclusive mx-40">
+      <div class="p-5 bg-secondary w-fit">
+        <h2 class="f-c-primary">About This Site<h2>
       </div>
-    </div>
+      {% block home %}{% endblock %}
+    </main>
   </body>
-  </body>
+
+
 </html>

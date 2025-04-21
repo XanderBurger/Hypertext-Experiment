@@ -1,0 +1,13 @@
+meta:
+  route: home
+  date: feb 20
+  tag: information
+  title: home
+
+content:
+  - type: ref-link
+    ref: about
+    content: About
+
+  - type: loaded-ref
+    ref: about

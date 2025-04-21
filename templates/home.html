@@ -1,0 +1,12 @@
+{% extends 'index.html' %} {% block home %}
+<section class="">
+  <div class="w-full grid grid-col-3 gap-2" id="content-container">
+    <div
+      hx-get="content/home"
+      hx-trigger="load"
+      hx-target="this"
+      hx-swap="outerHTML"></div>
+  </div>
+</section>
+
+{% endblock %}

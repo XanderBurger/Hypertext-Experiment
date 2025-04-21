@@ -1,0 +1,18 @@
+meta:
+  route: about
+  date: feb 20
+  tag: information
+  title: About Me
+
+content:
+  - type: header
+    content: |
+      Home
+
+  - type: body
+    content: |
+      test
+
+  - type: body
+    content: |
+      Text

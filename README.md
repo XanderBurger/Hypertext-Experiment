@@ -1,7 +1,11 @@
-# Flask - Tailwind - HTMX - Template
+# This is for experimenting 
 
-start tailwind
+start venv
 
 ```
-./tailwindcss -i static/css/input.css -o static/css/output.css --watch
-```
+python(3) -m venv .venv
+
+source .venv/bin/activate
+
+pip install -r requirements.txt
+``` 
